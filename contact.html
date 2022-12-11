@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Contact details</h1>
+    <p>You can contact me through my email at <strong>mynameisbrookie@gmail.com</strong></p>
+    <p>Fictional Address</p>
+    <p>555-yourmom-83944</p>
+
+    <!-- Hey do you see line 15 it looks like this:
+     <form class=""action="index.html" method="post">
+         before I change it you can notice that in this
+          code in this commet the class is action="index.html"
+           which means that when someone clicks on it the action
+            will just take the user to our homepage-->
+            <!-- we changed the action to ="mailto" what mailsto do is that 
+            when you press the submit button, they will open up your default 
+            mail client,and it puts in the email address that you specify -->
+            <!--The post just means that it simply transfers what the user types into the input -->
+    <form action="mailto:moamomo@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="Your Name" value=""><br>
+        <label>Your Email:</label>
+        <!--This will allow users to put in their email-->
+        <input type="email" name="Your Email" value=""><br>
+
+        <!--The code below will allow for anyone who goes in
+        our site to write us a message that will be sent to 
+        us-->
+        <label>Your Message:</label><br>
+        <!--You can modify the rows and colums to change the size
+         of the text area-->
+         <!--Quick tip you know the lines that you see in the text feild 
+        at the bottom right users can actully pull on it to make the text 
+        feild bigger of smaller but the default size that they first see 
+        is made by the developer -->
+        <textarea name="your message" rows="10" cols="30"></textarea><br>
+        <input type="submit" name="">
+    </form>
+    <br>
+    <h3>Here is a link to see alot more inputs in <strong><a href="Inputs.html">HTML</a></strong></h3>
+    
+</body>
+</html>
